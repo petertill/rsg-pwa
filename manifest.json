@@ -31,14 +31,14 @@
     "description": "Műszer Depó webáruház alkalmazás \n Cégünk mérőműszerek értékesítésével valamint ipari és oktatási mérőlaborok tervezésével, kivitelezésével foglalkozik. Hivatalos gyártói képviselőként a Rohde & Schwarz, Rigol, Siglent, Owon gyártók teljes műszer választéka megtalálható szaküzletünkben.",
     "screenshots": [
       {
-        "src": "https://raw.githubusercontent.com/petertill/rsg-pwa/main/sc1.jpg",
-        "type": "image/jpg",
+        "src": "https://raw.githubusercontent.com/petertill/rsg-pwa/main/sc1.png",
+        "type": "image/png",
         "sizes": "1080x2400",
         "form_factor": "narrow"
       },
       {
-        "src": "https://raw.githubusercontent.com/petertill/rsg-pwa/main/sc2.jpg",
-        "type": "image/jpg",
+        "src": "https://raw.githubusercontent.com/petertill/rsg-pwa/main/sc2.png",
+        "type": "image/png",
         "sizes": "1080x2400",
         "form_factor": "narrow"
       }
