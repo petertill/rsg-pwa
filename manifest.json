@@ -14,10 +14,10 @@
         }
     ],
     "id": "/?source=pwa",
-    "start_url": "/?source=pwa",
+    "start_url": "https://vnk0jwtp-5500.euw.devtunnels.ms/?source=pwa",
     "background_color": "#F5FCFF",
     "display": "standalone",
-    "scope": "/",
+    "scope": "https://vnk0jwtp-5500.euw.devtunnels.ms/",
     "theme_color": "#F5FCFF",
     "shortcuts": [
       {
