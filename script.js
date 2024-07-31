@@ -1,4 +1,4 @@
-navigator.serviceWorker && navigator.serviceWorker.register('./sw.js').then(function(registration) {  console.log('Excellent, registered with scope: ', registration.scope);});
+navigator.serviceWorker && navigator.serviceWorker.register('https://raw.githubusercontent.com/petertill/rsg-pwa/main/sw.js').then(function(registration) {  console.log('Excellent, registered with scope: ', registration.scope);});
 
 let installPrompt = null;
 const installButton = document.querySelector("#install");
