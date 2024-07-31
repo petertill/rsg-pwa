@@ -2,30 +2,31 @@
     "short_name": "Műszer Depó",
     "name": "Műszer Depó",
     "icons": [
-      {
-        "src": "icon-512x512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      },
         {
-            "src": "icon-192x192.png",
+            "src": "https://raw.githubusercontent.com/petertill/rsg-pwa/main/ic256x256.png",
             "type": "image/png",
-            "sizes": "192x192"
+            "sizes": "256x256",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://raw.githubusercontent.com/petertill/rsg-pwa/main/ic256x256.png",
+            "type": "image/png",
+            "sizes": "256x256",
+            "purpose": "any maskable"
         }
     ],
-    "id": "/?source=pwa",
-    "start_url": "https://vnk0jwtp-5500.euw.devtunnels.ms/?source=pwa",
+    "start_url": "index.html",
     "background_color": "#F5FCFF",
-    "display": "standalone",
-    "scope": "https://vnk0jwtp-5500.euw.devtunnels.ms/",
     "theme_color": "#F5FCFF",
+    "display": "standalone",
+    "orientation": "portrait",
     "shortcuts": [
       {
         "name": "Ipari Sávú Kézi Adóvevők",
         "short_name": "Ipari Sávú Kézi Adóvevők",
         "description": "Tekintsd meg az ipari sávú kézi adóvevők kínálatát",
         "url": "/ipari-savu-kezi-adovevo?source=pwa",
-        "icons": [{ "src": "icon-192x192.png", "sizes": "192x192" }]
+        "icons": [{ "src": "https://raw.githubusercontent.com/petertill/rsg-pwa/main/ic256x256.png", "sizes": "256x256" }]
       }
     ],
     "description": "Műszer Depó webáruház alkalmazás \n Cégünk mérőműszerek értékesítésével valamint ipari és oktatási mérőlaborok tervezésével, kivitelezésével foglalkozik. Hivatalos gyártói képviselőként a Rohde & Schwarz, Rigol, Siglent, Owon gyártók teljes műszer választéka megtalálható szaküzletünkben.",
@@ -33,14 +34,14 @@
       {
         "src": "https://raw.githubusercontent.com/petertill/rsg-pwa/main/sc1.png",
         "type": "image/png",
-        "sizes": "1080x2400",
+        "sizes": "480x800",
         "form_factor": "narrow"
       },
       {
         "src": "https://raw.githubusercontent.com/petertill/rsg-pwa/main/sc2.png",
         "type": "image/png",
-        "sizes": "1080x2400",
+        "sizes": "480x800",
         "form_factor": "narrow"
       }
     ]
-  }
+}
